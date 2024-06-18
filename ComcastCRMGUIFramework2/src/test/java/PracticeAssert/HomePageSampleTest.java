@@ -26,7 +26,7 @@ public class HomePageSampleTest {
 		System.out.println("step-4");
 		SoftAssert.assertAll();
 		System.out.println(md.getName()+"test end");
-
+		
 	}
 	@Test
 	public void VerifyLogoHomePageTest(Method md)

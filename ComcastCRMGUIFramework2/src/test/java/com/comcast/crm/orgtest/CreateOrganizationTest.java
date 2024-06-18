@@ -53,6 +53,7 @@ public class CreateOrganizationTest extends BaseClass {
 		String actorgName = oip.getGetHeadermge().getText();
 		//Assert.assertEquals(orgname, actorgName.contains(orgname));
 		Assert.assertTrue(actorgName.contains(orgname));
+		
 	}
 
 		@Test(groups="smokeTest")
